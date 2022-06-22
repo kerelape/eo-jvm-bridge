@@ -42,7 +42,7 @@ builder.to-string
 A `native-object` can be `null` (nowhere to go, it's java), in this case it will have `is-null` attribute, being `TRUE`. If the object is not `null`,
 `is-null` is `FALSE`.
 
-If an object is `null`, dataization will throw `NullPointerException`, in other cases this will call `toString` of the java object.
+If an object is `null`, dataization will throw `NullPointerException`, in other cases it will call `toString` of the java object.
 
 ## How to contribute
 Fork repository, make changes, send us a pull request.
