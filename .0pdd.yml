@@ -1,0 +1,8 @@
+errors:
+  - kerelape@gmail.com
+alerts:
+  github:
+    - kerelape
+tags:
+  - pdd
+  - bug
