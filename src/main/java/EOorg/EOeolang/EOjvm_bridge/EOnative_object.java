@@ -35,6 +35,7 @@ import org.eolang.Phi;
  *
  * @since 0.0.0
  * @todo #2 Native object must include "is-null" attribute.
+ * @todo #2 Native object must provide a way to call its methods.
  * @checkstyle TypeNameCheck (10 lines)
  */
 public final class EOnative_object extends PhDefault {
