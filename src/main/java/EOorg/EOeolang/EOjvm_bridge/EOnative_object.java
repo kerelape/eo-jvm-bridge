@@ -21,14 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-
+// @checkstyle PackageNameCheck (1 line)
 package EOorg.EOeolang.EOjvm_bridge;
 
 import org.eolang.AtComposite;
 import org.eolang.AtFree;
 import org.eolang.AtVararg;
-import org.eolang.Data;
-import org.eolang.Param;
 import org.eolang.PhDefault;
 import org.eolang.Phi;
 
@@ -36,12 +34,12 @@ import org.eolang.Phi;
  * Native object.
  *
  * @since 0.0.0
+ * @todo #2 Native object must include "is-null" attribute.
+ * @checkstyle TypeNameCheck (10 lines)
  */
 public final class EOnative_object extends PhDefault {
     /**
      * Ctor.
-     *
-     * @todo #2 Native object must include "is-null" attribute.
      *
      * @param sigma Parent.
      */
