@@ -41,6 +41,8 @@ public final class EOnative_object extends PhDefault {
     /**
      * Ctor.
      *
+     * @todo #2 Native object must include "is-null" attribute.
+     *
      * @param sigma Parent.
      */
     public EOnative_object(final Phi sigma) {
