@@ -34,10 +34,10 @@ import org.eolang.Phi;
  * Native object.
  *
  * @since 0.0.0
- * @todo #2 Native object must include `is-null` attribute.
+ * @todo #2:15min Native object must include `is-null` attribute.
  *  This attribute must returns `TRUE` if the underlying native
  *  object is not `null`, and `FALSE` otherwise.
- * @todo #2 Native object must provide a way to call its methods.
+ * @todo #2:30min Native object must provide a way to call its methods.
  *  For example, these can to be accessible as `native-object`'s
  *  attributes (translated to kebab case) or via a supporting object.
  * @checkstyle TypeNameCheck (10 lines)
