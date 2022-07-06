@@ -1,5 +1,5 @@
 ---
-name: codecov
+name: Codecov
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ on:
     branches:
       - master
 jobs:
-  codecov:
+  report:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
