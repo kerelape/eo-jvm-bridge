@@ -24,6 +24,7 @@
 +home https://github.com/objectionary/eo-jvm-bridge
 +version 0.0.0
 +alias org.eolang.jvm-bridge.native-object
++alias org.eolang.hamcrest.assert-that
 +junit
 
 [] > native-object-is-its-name
